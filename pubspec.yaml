@@ -12,7 +12,9 @@ dependencies:
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
-  tencent_cloud_chat_sdk: ^8.5.6864
+  tencent_cloud_chat_sdk:
+    git:
+      url: https://github.com/freatraum/tencent_cloud_chat_sdk-8.5.6864-6_change.git
 
 dev_dependencies:
   flutter_test:
